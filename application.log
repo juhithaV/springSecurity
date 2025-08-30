@@ -1,0 +1,205 @@
+2025-08-30T14:34:33.822+05:30  INFO 11356 --- [ahtih] [restartedMain] c.first.firstProject.AhtihApplication    : Starting AhtihApplication using Java 21.0.7 with PID 11356 (C:\Users\Juhitha Vemuri\stsSpace\ahtih\target\classes started by Juhitha Vemuri in C:\Users\Juhitha Vemuri\stsSpace\ahtih)
+2025-08-30T14:34:33.829+05:30 DEBUG 11356 --- [ahtih] [restartedMain] c.first.firstProject.AhtihApplication    : Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-08-30T14:34:33.831+05:30  INFO 11356 --- [ahtih] [restartedMain] c.first.firstProject.AhtihApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-08-30T14:34:33.940+05:30  INFO 11356 --- [ahtih] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-30T14:34:33.941+05:30  INFO 11356 --- [ahtih] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-30T14:34:35.961+05:30  INFO 11356 --- [ahtih] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-30T14:34:36.096+05:30  INFO 11356 --- [ahtih] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 112 ms. Found 3 JPA repository interfaces.
+2025-08-30T14:34:37.163+05:30  INFO 11356 --- [ahtih] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-30T14:34:37.186+05:30  INFO 11356 --- [ahtih] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-30T14:34:37.186+05:30  INFO 11356 --- [ahtih] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-08-30T14:34:37.274+05:30  INFO 11356 --- [ahtih] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-30T14:34:37.275+05:30  INFO 11356 --- [ahtih] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3333 ms
+2025-08-30T14:34:37.747+05:30  INFO 11356 --- [ahtih] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-30T14:34:37.856+05:30  INFO 11356 --- [ahtih] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-08-30T14:34:37.920+05:30  INFO 11356 --- [ahtih] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-30T14:34:38.546+05:30  INFO 11356 --- [ahtih] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-30T14:34:38.618+05:30  INFO 11356 --- [ahtih] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-30T14:34:39.333+05:30  INFO 11356 --- [ahtih] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 3770594c-81fc-4892-beb4-7f382f6ed5c5
+2025-08-30T14:34:39.337+05:30  INFO 11356 --- [ahtih] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-30T14:34:39.452+05:30  WARN 11356 --- [ahtih] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-30T14:34:39.508+05:30  INFO 11356 --- [ahtih] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-30T14:34:41.593+05:30  INFO 11356 --- [ahtih] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-30T14:34:45.925+05:30  INFO 11356 --- [ahtih] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-30T14:34:46.495+05:30 DEBUG 11356 --- [ahtih] [restartedMain] c.f.f.security.JWTRequestFilter          : Filter 'JWTRequestFilter' configured for use
+2025-08-30T14:34:46.639+05:30  WARN 11356 --- [ahtih] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-30T14:34:46.714+05:30  WARN 11356 --- [ahtih] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9b94f8e5-f3a4-4120-833c-ebee75890c36
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-30T14:34:46.729+05:30  INFO 11356 --- [ahtih] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-30T14:34:48.107+05:30  INFO 11356 --- [ahtih] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-30T14:34:48.216+05:30  INFO 11356 --- [ahtih] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-30T14:34:48.352+05:30  INFO 11356 --- [ahtih] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-30T14:34:48.384+05:30  INFO 11356 --- [ahtih] [restartedMain] c.first.firstProject.AhtihApplication    : Started AhtihApplication in 15.307 seconds (process running for 16.753)
+2025-08-30T14:35:12.612+05:30  INFO 11356 --- [ahtih] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-30T14:35:12.612+05:30  INFO 11356 --- [ahtih] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-30T14:35:12.614+05:30  INFO 11356 --- [ahtih] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-08-30T14:36:31.670+05:30  INFO 11356 --- [ahtih] [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-08-30T14:36:31.674+05:30  INFO 11356 --- [ahtih] [RMI TCP Connection(11)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-30T14:36:31.681+05:30  INFO 11356 --- [ahtih] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-30T14:36:31.690+05:30  INFO 11356 --- [ahtih] [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-30T14:36:31.694+05:30  INFO 11356 --- [ahtih] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-30T14:36:31.698+05:30  INFO 11356 --- [ahtih] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-30T14:36:48.708+05:30  INFO 18636 --- [ahtih] [restartedMain] c.first.firstProject.AhtihApplication    : Starting AhtihApplication using Java 21.0.7 with PID 18636 (C:\Users\Juhitha Vemuri\stsSpace\ahtih\target\classes started by Juhitha Vemuri in C:\Users\Juhitha Vemuri\stsSpace\ahtih)
+2025-08-30T14:36:48.710+05:30 DEBUG 18636 --- [ahtih] [restartedMain] c.first.firstProject.AhtihApplication    : Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-08-30T14:36:48.711+05:30  INFO 18636 --- [ahtih] [restartedMain] c.first.firstProject.AhtihApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-08-30T14:36:48.775+05:30  INFO 18636 --- [ahtih] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-30T14:36:48.775+05:30  INFO 18636 --- [ahtih] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-30T14:36:50.311+05:30  INFO 18636 --- [ahtih] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-30T14:36:50.389+05:30  INFO 18636 --- [ahtih] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 3 JPA repository interfaces.
+2025-08-30T14:36:51.280+05:30  INFO 18636 --- [ahtih] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-30T14:36:51.302+05:30  INFO 18636 --- [ahtih] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-30T14:36:51.303+05:30  INFO 18636 --- [ahtih] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-08-30T14:36:51.388+05:30  INFO 18636 --- [ahtih] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-30T14:36:51.389+05:30  INFO 18636 --- [ahtih] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2613 ms
+2025-08-30T14:36:51.942+05:30  INFO 18636 --- [ahtih] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-30T14:36:52.010+05:30  INFO 18636 --- [ahtih] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-08-30T14:36:52.065+05:30  INFO 18636 --- [ahtih] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-30T14:36:52.522+05:30  INFO 18636 --- [ahtih] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-30T14:36:52.576+05:30  INFO 18636 --- [ahtih] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-30T14:36:53.326+05:30  INFO 18636 --- [ahtih] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 78f74f43-d3e1-4216-8ab3-e06bfc989501
+2025-08-30T14:36:53.330+05:30  INFO 18636 --- [ahtih] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-30T14:36:53.456+05:30  WARN 18636 --- [ahtih] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-30T14:36:53.509+05:30  INFO 18636 --- [ahtih] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-30T14:36:57.347+05:30  INFO 18636 --- [ahtih] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-30T14:37:02.627+05:30  INFO 18636 --- [ahtih] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-30T14:37:03.423+05:30 DEBUG 18636 --- [ahtih] [restartedMain] c.f.f.security.JWTRequestFilter          : Filter 'JWTRequestFilter' configured for use
+2025-08-30T14:37:03.657+05:30  WARN 18636 --- [ahtih] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-30T14:37:03.755+05:30  WARN 18636 --- [ahtih] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5311ba3d-a42a-44cf-a72e-9db28cb51698
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-30T14:37:03.779+05:30  INFO 18636 --- [ahtih] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-30T14:37:05.015+05:30  INFO 18636 --- [ahtih] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-30T14:37:05.143+05:30  INFO 18636 --- [ahtih] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-30T14:37:05.292+05:30  INFO 18636 --- [ahtih] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-30T14:37:05.328+05:30  INFO 18636 --- [ahtih] [restartedMain] c.first.firstProject.AhtihApplication    : Started AhtihApplication in 17.326 seconds (process running for 18.477)
+2025-08-30T14:37:19.784+05:30  INFO 18636 --- [ahtih] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-30T14:37:19.784+05:30  INFO 18636 --- [ahtih] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-30T14:37:19.786+05:30  INFO 18636 --- [ahtih] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-30T14:40:05.068+05:30  INFO 18636 --- [ahtih] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-30T14:40:05.073+05:30  INFO 18636 --- [ahtih] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-30T14:40:05.080+05:30  INFO 18636 --- [ahtih] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-30T14:40:05.090+05:30  INFO 18636 --- [ahtih] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-30T14:40:05.094+05:30  INFO 18636 --- [ahtih] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-30T14:40:05.097+05:30  INFO 18636 --- [ahtih] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-30T14:40:05.210+05:30  INFO 18636 --- [ahtih] [restartedMain] c.first.firstProject.AhtihApplication    : Starting AhtihApplication using Java 21.0.7 with PID 18636 (C:\Users\Juhitha Vemuri\stsSpace\ahtih\target\classes started by Juhitha Vemuri in C:\Users\Juhitha Vemuri\stsSpace\ahtih)
+2025-08-30T14:40:05.210+05:30 DEBUG 18636 --- [ahtih] [restartedMain] c.first.firstProject.AhtihApplication    : Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-08-30T14:40:05.210+05:30  INFO 18636 --- [ahtih] [restartedMain] c.first.firstProject.AhtihApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-08-30T14:40:05.726+05:30  INFO 18636 --- [ahtih] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-30T14:40:05.747+05:30  INFO 18636 --- [ahtih] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 3 JPA repository interfaces.
+2025-08-30T14:40:05.942+05:30  INFO 18636 --- [ahtih] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-30T14:40:05.945+05:30  INFO 18636 --- [ahtih] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-30T14:40:05.945+05:30  INFO 18636 --- [ahtih] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-08-30T14:40:05.977+05:30  INFO 18636 --- [ahtih] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-30T14:40:05.977+05:30  INFO 18636 --- [ahtih] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 764 ms
+2025-08-30T14:40:06.084+05:30  INFO 18636 --- [ahtih] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-30T14:40:06.089+05:30  INFO 18636 --- [ahtih] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-30T14:40:06.100+05:30  INFO 18636 --- [ahtih] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-30T14:40:06.102+05:30  INFO 18636 --- [ahtih] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-08-30T14:40:06.148+05:30  INFO 18636 --- [ahtih] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection ConnectionID:11 ClientConnectionId: 242feff6-801f-442b-8adb-c8ec0e43fc95
+2025-08-30T14:40:06.149+05:30  INFO 18636 --- [ahtih] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-08-30T14:40:06.179+05:30  WARN 18636 --- [ahtih] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-30T14:40:06.181+05:30  INFO 18636 --- [ahtih] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 15.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-30T14:40:06.414+05:30  INFO 18636 --- [ahtih] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-30T14:40:09.164+05:30  INFO 18636 --- [ahtih] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-30T14:40:09.260+05:30 DEBUG 18636 --- [ahtih] [restartedMain] c.f.f.security.JWTRequestFilter          : Filter 'JWTRequestFilter' configured for use
+2025-08-30T14:40:09.339+05:30  WARN 18636 --- [ahtih] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-30T14:40:09.359+05:30  WARN 18636 --- [ahtih] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e30652aa-2f2a-43ff-8905-9581d672675f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-30T14:40:09.360+05:30  INFO 18636 --- [ahtih] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-30T14:40:09.715+05:30  INFO 18636 --- [ahtih] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-30T14:40:09.752+05:30  INFO 18636 --- [ahtih] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-30T14:40:09.800+05:30  INFO 18636 --- [ahtih] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-30T14:40:09.825+05:30  INFO 18636 --- [ahtih] [restartedMain] c.first.firstProject.AhtihApplication    : Started AhtihApplication in 4.663 seconds (process running for 202.973)
+2025-08-30T14:40:09.831+05:30  INFO 18636 --- [ahtih] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-08-30T14:41:18.575+05:30  INFO 18636 --- [ahtih] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-30T14:41:18.577+05:30  INFO 18636 --- [ahtih] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-30T14:41:18.584+05:30  INFO 18636 --- [ahtih] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-30T14:41:18.589+05:30  INFO 18636 --- [ahtih] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-30T14:41:18.590+05:30  INFO 18636 --- [ahtih] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-08-30T14:41:18.593+05:30  INFO 18636 --- [ahtih] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-08-30T14:41:18.736+05:30  INFO 18636 --- [ahtih] [restartedMain] c.first.firstProject.AhtihApplication    : Starting AhtihApplication using Java 21.0.7 with PID 18636 (C:\Users\Juhitha Vemuri\stsSpace\ahtih\target\classes started by Juhitha Vemuri in C:\Users\Juhitha Vemuri\stsSpace\ahtih)
+2025-08-30T14:41:18.737+05:30 DEBUG 18636 --- [ahtih] [restartedMain] c.first.firstProject.AhtihApplication    : Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-08-30T14:41:18.737+05:30  INFO 18636 --- [ahtih] [restartedMain] c.first.firstProject.AhtihApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-08-30T14:41:19.387+05:30  INFO 18636 --- [ahtih] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-30T14:41:26.844+05:30  INFO 15644 --- [ahtih] [restartedMain] c.first.firstProject.AhtihApplication    : Starting AhtihApplication using Java 21.0.7 with PID 15644 (C:\Users\Juhitha Vemuri\stsSpace\ahtih\target\classes started by Juhitha Vemuri in C:\Users\Juhitha Vemuri\stsSpace\ahtih)
+2025-08-30T14:41:26.847+05:30 DEBUG 15644 --- [ahtih] [restartedMain] c.first.firstProject.AhtihApplication    : Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-08-30T14:41:26.849+05:30  INFO 15644 --- [ahtih] [restartedMain] c.first.firstProject.AhtihApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-08-30T14:41:26.941+05:30  INFO 15644 --- [ahtih] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-30T14:41:26.942+05:30  INFO 15644 --- [ahtih] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-30T14:41:28.854+05:30  INFO 15644 --- [ahtih] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-30T14:41:28.953+05:30  INFO 15644 --- [ahtih] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 3 JPA repository interfaces.
+2025-08-30T14:41:30.145+05:30  INFO 15644 --- [ahtih] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-30T14:41:30.168+05:30  INFO 15644 --- [ahtih] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-30T14:41:30.168+05:30  INFO 15644 --- [ahtih] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-08-30T14:41:30.242+05:30  INFO 15644 --- [ahtih] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-30T14:41:30.243+05:30  INFO 15644 --- [ahtih] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3300 ms
+2025-08-30T14:41:30.697+05:30  INFO 15644 --- [ahtih] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-30T14:41:30.812+05:30  INFO 15644 --- [ahtih] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-08-30T14:41:30.864+05:30  INFO 15644 --- [ahtih] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-30T14:41:31.382+05:30  INFO 15644 --- [ahtih] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-30T14:41:31.449+05:30  INFO 15644 --- [ahtih] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-30T14:41:31.993+05:30  INFO 15644 --- [ahtih] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 2469909d-cf7b-4698-9770-977f43501fc1
+2025-08-30T14:41:31.996+05:30  INFO 15644 --- [ahtih] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-30T14:41:32.096+05:30  WARN 15644 --- [ahtih] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-30T14:41:32.136+05:30  INFO 15644 --- [ahtih] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-30T14:41:33.865+05:30  INFO 15644 --- [ahtih] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-30T14:41:35.305+05:30  INFO 15644 --- [ahtih] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-30T14:41:35.998+05:30 DEBUG 15644 --- [ahtih] [restartedMain] c.f.f.security.JWTRequestFilter          : Filter 'JWTRequestFilter' configured for use
+2025-08-30T14:41:36.143+05:30  WARN 15644 --- [ahtih] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-30T14:41:36.196+05:30  WARN 15644 --- [ahtih] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0599bc7f-6ee2-47d1-995c-c56fb0abfda1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-30T14:41:36.210+05:30  INFO 15644 --- [ahtih] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-30T14:41:37.087+05:30  INFO 15644 --- [ahtih] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-30T14:41:37.679+05:30  INFO 15644 --- [ahtih] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-30T14:41:37.792+05:30  INFO 15644 --- [ahtih] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-30T14:41:37.818+05:30  INFO 15644 --- [ahtih] [restartedMain] c.first.firstProject.AhtihApplication    : Started AhtihApplication in 11.859 seconds (process running for 13.346)
+2025-08-30T14:41:43.126+05:30  INFO 15644 --- [ahtih] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-30T14:41:43.126+05:30  INFO 15644 --- [ahtih] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-30T14:41:43.128+05:30  INFO 15644 --- [ahtih] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-08-30T14:41:52.522+05:30  INFO 15644 --- [ahtih] [http-nio-8080-exec-3] c.f.f.service.AuthenticationService      : Attempting to Log User : jVemuri
+2025-08-30T14:41:52.544+05:30  WARN 15644 --- [ahtih] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.first.firstProject.exception.UserAlreadyExistsException: UserName Already Exists]
+2025-08-30T14:41:59.379+05:30  INFO 15644 --- [ahtih] [http-nio-8080-exec-4] c.f.f.service.AuthenticationService      : Attempting to Log User : juVemuri
+2025-08-30T14:41:59.690+05:30  INFO 15644 --- [ahtih] [http-nio-8080-exec-4] c.f.f.service.AuthenticationService      : User has successfully registered : juVemuri
